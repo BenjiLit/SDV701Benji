@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="BenjisBicycleUniversal.pgBrandDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BenjisBicycleUniversal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="370" Width="303">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,10,10">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Brand Details" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbBrand" HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="Brand Name" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbBrandCont" HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="Brand Contact Ph" VerticalAlignment="Top" RenderTransformOrigin="0.542,0.769"/>
+        <TextBlock x:Name="tbWarranty" HorizontalAlignment="Left" Margin="10,91,0,0" TextWrapping="Wrap" Text="Warranty Period" VerticalAlignment="Top" RenderTransformOrigin="0.119,0.146"/>
+        <TextBlock x:Name="tbBikesWeStock" HorizontalAlignment="Left" Margin="10,138,0,0" TextWrapping="Wrap" Text="Bikes We Have in this Brand" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstBicycles" HorizontalAlignment="Left" Height="123" Margin="10,171,0,0" VerticalAlignment="Top" Width="158"/>
+        <RadioButton x:Name="rbPrice" Content="Price" HorizontalAlignment="Left" Margin="202,217,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbBrandName" HorizontalAlignment="Left" Margin="185,52,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" RenderTransformOrigin="51,0.6"/>
+        <TextBlock x:Name="tbBrandContactPh" HorizontalAlignment="Left" Margin="185,73,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbBrandWarranty" HorizontalAlignment="Left" Margin="185,94,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="189,262,0,0" VerticalAlignment="Top" Width="85" Click="btnBack_Click"/>
+        <RadioButton x:Name="rbName1" Content="Name" HorizontalAlignment="Left" Margin="202,181,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <TextBlock x:Name="tbSortBy" HorizontalAlignment="Left" Margin="220,152,0,0" TextWrapping="Wrap" Text="Sort By" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbMessages" HorizontalAlignment="Left" Margin="10,308,0,0" TextWrapping="Wrap" Text="Messages:" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
